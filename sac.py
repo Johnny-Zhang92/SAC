@@ -240,7 +240,8 @@ class SAC(object):
             self.policy.load_state_dict(torch.load(actor_path))
         if critic_path is not None:
             self.critic.load_state_dict(torch.load(critic_path))
-
+def test1():
+    pass
 
 def test():
     from passer import get_passer
